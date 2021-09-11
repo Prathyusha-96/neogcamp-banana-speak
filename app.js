@@ -13,7 +13,7 @@ var outputDiv = document.querySelector("#output");
 
 
 function clickHandler() {
- // outputDiv.innerText = "ahayjhddyhcb " + txtInput.value ;
+ 
     var inputText = txtInput.value;
     
     fetch(getTranslationURL(inputText))
